@@ -11,7 +11,7 @@ lib.background()
 lib.sun()
 lib.dune()
 for i in range(20):
-	lib.tumbleweed()
+	lib.tumbleweed(30)
 
 
 

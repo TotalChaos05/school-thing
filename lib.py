@@ -34,6 +34,7 @@ class cursor:
 		goto(getX(1300),getY(700))
 		goto(getX(0),getY(700))
 		end_fill()
+#		def dotshade(self):
 
 
 
@@ -47,7 +48,7 @@ def dune():
 	middune = cursor(0,450,30)
 	middune.drawRandDune()
 	#close
-	color('#D76539')
+	color('#C26125')
 	frontdune = cursor(0,550,20)
 	frontdune.drawRandDune()
 def background():
@@ -57,7 +58,7 @@ def sun():
 	color("#FF542A")
 	fillCircle(650,275,100)
 def tumbleweed(size=20):
-	color("brown")
+	color("#70371E")
 	pensize(1)
 	x=randint(0,1300)
 	y=randint(350,700)
